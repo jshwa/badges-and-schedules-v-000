@@ -14,7 +14,7 @@ end
 def assign_rooms(roster)
   room_list = []
   roster.each_with_index do |name, room|
-    room_list.push("Hello, #{name}! You have been assigned to room #{room}!")
+    room_list.push("Hello, #{name}! You have been assigned to room #{room +1}!")
   end
   room_list
 end
