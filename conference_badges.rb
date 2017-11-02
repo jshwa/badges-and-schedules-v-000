@@ -1,7 +1,7 @@
 # Write your code here.
 def badge_maker(name)
   return "Hello, my names is #{name}"
-end 
+end
 
 def batch_badge_creator(roster)
   badge_roster = []
@@ -21,9 +21,9 @@ end
 
 def printer(roster)
   batch_badge_creator(roster).each do |i|
-    puts i 
+    puts i
   end
   assign_rooms(roster.each) do |i|
-    puts i 
+    puts i
   end
 end
